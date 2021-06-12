@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8F508E8D"
+    android:layout_marginBottom="5dp"
+    >
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Name:"
+    android:drawableStart="@drawable/ic_baseline_person_add_24"
+    android:drawablePadding="20dp"
+   android:textColor="@color/black"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"/>
+
+
+        <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+            android:drawableStart="@drawable/ic_baseline_add_24"
+             android:drawablePadding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_baseline_wc_24"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/phonenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phonenum :"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="20dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#8F073231"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
